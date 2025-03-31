@@ -14,11 +14,20 @@ const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'; // NON MODIFICARE QUESTA RIGA
 const firstName = 'Jane'; // NON MODIFICARE QUESTA RIGA
 const lastName = 'Smith'; // NON MODIFICARE QUESTA RIGA
 
-const fullName = null;
+const fullName =  firstName + ' ' + lastName;;
 console.log(fullName); // Output: "Jane Smith"
 
 const name = 'Danny';
 console.log(name); // Output: Danny
+
+const number = 42;
+const text = 'Ciao!';
+const bool = true;
+
+console.log(number); // Output: 42
+console.log(text);   // Output: Ciao!
+console.log(bool);   // Output: true
+
 
 
 // 4. Imposta questa variabile utilizzando una proprietà
